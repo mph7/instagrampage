@@ -1,34 +1,86 @@
 *{
-	margin: 0;
 	padding: 0;
-	text-decoration: none;
+	margin: 0;
+	font-size: 100%;
 	font-family: sans-serif;
-	font-size: 15
+	text-decoration: none;
 }
 
 body{
-	display: flex;
-	background-color: rgb(245, 245, 245);
+	background-color: rgb(240, 240, 240);
 }
 
 .main-wrap{
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center; 
 }
 
 .phone{
 	display: flex;
-	size: 50%;
-	max-height: 80%;
-	max-width: 45%;
+	background-color: cyan;
+	max-height: 50%;
+	max-width: 40em;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.5em;
+}
+
+.phone img{
+	display: flex;
+	max-height: 50%;
+	justify-content: center;
+	max-width: 18em;
+
 }
 
 .login{
 	display: flex;
+	background-color: coral;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	width: 600px;
-	height: 90%;
+	justify-content: space-around;
+	margin-left: 2em;
+	font-size: 1em
+	height: 25em;
+}
+
+.info, .noaccount p, form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.info, .noaccount{
+	display: flex;
+	background-color: #fff;
+	border: 1px solid lightgray;
+	min-height: 5em;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 2em;
+	margin-bottom: 0.5em;
+}
+
+form{
+	line-height: 1em;
+	border-radius: 0px;
+	color: lightgray;
+}
+
+.opcao1, .opcao2, .submit{
+	margin: 0em 1em 0.5em 1em;	
+	padding: 0em 3em 1em 3em;
+}
+
+.noaccount{
+	padding: 0em 7.3em 0em 7.3em;
+	margin: 0;
+}
+
+.noaccount a{
+	font-weight: bold;
+	color: rgb(65, 65, 255);
 }
